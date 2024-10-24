@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.actions button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+.actions .edit {
+    background-color: #ffc107;
+    color: white;
+}
+
+.actions .delete {
+    background-color: #dc3545;
+    color: white;
+}
